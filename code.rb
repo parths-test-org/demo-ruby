@@ -13,8 +13,8 @@ begin
 end while a == b
 
 # Raises "multiple comparison detected"
-x < y < z
-10 <= x <= 20
+x < y && y < z
+10 <= x && x <= 20
 
 # Raises "empty rescue block detected"
 begin
