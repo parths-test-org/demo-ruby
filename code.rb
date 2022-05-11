@@ -39,7 +39,7 @@ def some_method
 end
 
 # Raises "top level return with argument detected"
-return 1
+return
 
 # Raises "duplicate elsif block detected"
 if x == 1
