@@ -1,8 +1,8 @@
-# frozen_string_literal: true
+# encoding: ascii
 
 # Raises "bad ordering of magic comments"
 # frozen_string_literal: true
-# encoding: ascii
+# frozen_string_literal: true
 
 # Raises "use of deprecated BigDecimal.new"
 a = { 'hello' => 'world', 'testing' => BigDecimal.new(123.456, 3) }
