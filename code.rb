@@ -55,6 +55,7 @@ OpenSSL::Cipher::AES.new(128, :GCM)
 # Also raises "multiple methods with same name in the same scope" as we have a
 # method with same name above
 def some_method
+  return 1
 end
 
 # Raises "Invalid annotation keyword format detected"
