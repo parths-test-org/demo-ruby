@@ -57,6 +57,10 @@ OpenSSL::Cipher::AES.new(128, :GCM)
 def some_method
   return 1
 end
+  
+def just_another_method
+  return 1
+end
 
 # Raises "Invalid annotation keyword format detected"
 def foo
@@ -73,4 +77,6 @@ my_hash.merge!('key': value)
 
 
 # Raises "Use `size` instead of `count`"
+[1, 2, 3].count
+  
 [1, 2, 3].count
