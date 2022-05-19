@@ -78,3 +78,5 @@ my_hash.merge!('key': value)
 
 # Raises "Use `size` instead of `count`"
 [1, 2, 3].count
+  
+[1, 2, 3].count
