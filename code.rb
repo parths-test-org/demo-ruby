@@ -28,7 +28,7 @@ else
 end
 
 # Raises "unused method arguments detected"
-def some_method(bar)
+def some_method(bar, foo, baz)
   puts 'Hello'
 end
 
