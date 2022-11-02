@@ -66,6 +66,7 @@ end
 def foo
   # TODO Replace this with bar
   do_something
+  do_something_else
 end
 
 # Raises "Use `Range#cover?` instead of `Range#include?`"
